@@ -45,7 +45,7 @@ const fs = require('fs');
 const profileDataArgs = process.argv.slice(2);
 
 const [name, github] = profileDataArgs;
-
+//allows us to use the generate page function housed in the page-template file
 const generatePage = require('./src/page-template.js');
 
 
